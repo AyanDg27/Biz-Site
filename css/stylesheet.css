@@ -1,0 +1,119 @@
+body {
+	background: #03084c; /* Old browsers */
+background: -moz-linear-gradient(top, #03084c 0%, #010816 89%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#03084c), color-stop(89%,#010816)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #03084c 0%,#010816 89%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #03084c 0%,#010816 89%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #03084c 0%,#010816 89%); /* IE10+ */
+background: linear-gradient(to bottom, #03084c 0%,#010816 89%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03084c', endColorstr='#010816',GradientType=0 ); /* IE6-9 */background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+	opacity: 60%;
+	height: 40px;
+	width: 100%;
+	background: #000000;
+	font-size: 11pt;
+	font-family: calibri, Arial, sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin-top: 10px;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0 auto;
+	width: 600px;
+	height: 40px;
+}
+
+nav li {
+	display: inline;
+	float: left;
+}
+
+nav a {
+	color: #C6F0FF;
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+	text-shadow: 1px 1px 0px #283744;
+}
+
+nav li a {
+	border-right: 1px solid #576979;
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+nav li:last-child a {
+	border-right: 0;
+}
+
+nav a:hover, nav a:active {
+	background-color: #471352;
+}
+
+nav a#pull {
+	display: none;
+}
+
+div{
+	border-top: 1px solid #576979;
+	border-bottom: 1px solid #576979;
+	text-align: center;
+	color: #C6F0FF;
+	font-family: Calibri, Arial, sans-serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+input{
+	color: #C6F0FF;
+	font: calibri;
+	font-size: 11px;
+	background-color: #03084c;
+	border: 1px solid #C6F0FF;
+}
+
+.left{
+	height: 200px;
+	width: 25%;
+	float: left;
+	border-right: 1px solid #576979;
+}
+
+.right {
+	height: 300px;
+	width: 20%;
+	float: right;	
+	border-left: 1px solid #576979;
+}
+
+.search{
+	float: right;
+	margin: 0px;
+	border: none;
+	background: #ddd;
+}
+
+#search-form{
+	display: block;
+}
+
+#s{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+
+	-webkit-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+}
